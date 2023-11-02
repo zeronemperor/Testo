@@ -1,0 +1,406 @@
+// ====== Variables ======
+@import "../sass/variables";
+@import "../sass/responsive";
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/hero-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  a {
+    background-color: $colorMain;
+    transition: background-color, color 0.6s;
+    color: #000;
+    &:hover {
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+  }
+  .price {
+    right: 0;
+    top: 0;
+    img {
+      width: 150px;
+    }
+    h3 {
+      top: 50px;
+      transform: translateX(50%);
+      // transform: translate( -2%,-365%);
+    }
+  }
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+  /* ====== Explore ======*/
+  #explore {
+    background-image: url(../images/about-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    height: 70vh;
+    .wrapper {
+      transform: translateY(80px);
+      a {
+        margin-bottom: 60px !important;
+        background-color: red;
+        transition: background-color, color 0.7s;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid red;
+          color: red !important;
+        }
+      }
+    }
+  }
+  /* ====== End Explore*/
+
+  /* ====== About ======*/
+  #about {
+    padding: 50px 0;
+    background-color: $colorMain;
+    img {
+      width: 100px;
+      color: #000;
+    }
+  }
+  /* ====== End About ======*/
+
+  /* ====== Burgers ======*/
+  #burgers {
+    padding: 60px 0;
+    .burger {
+      margin-bottom: 40px;
+      i {
+        color: $colorMain;
+      }
+      span {
+        background-color: $colorSecond;
+        color: $colorMain;
+      }
+      .crt {
+        background-color: $colorMain;
+        color: #000;
+        transform: translateY(20px);
+        visibility: hidden;
+        transition: transform 0.6s;
+      }
+      .burger-img {
+        overflow: hidden;
+        img {
+          transition: transform 0.6s;
+        }
+      }
+      .code {
+        left: 10px;
+        top: 10px;
+        background-color: transparent;
+      }
+      i {
+        transition: opacity, color 0.6s;
+      }
+      .fa-heart:hover {
+        cursor: pointer;
+        color: red !important;
+        opacity: 100% !important;
+      }
+      a {
+        transform: translateY(-40px);
+        cursor: pointer;
+        i {
+          color: #fff !important;
+        }
+      }
+      &:hover {
+        .crt {
+          visibility: visible;
+          transform: translateY(0px);
+        }
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  /* ====== End Burgers ======*/
+
+  /* ====== Advertising ====== */
+  #advertising {
+    padding: 60px 0;
+    .wrapper {
+      img {
+        height: 250px;
+        width: 100%;
+      }
+      .content {
+        top: 20%;
+        right: 5%;
+        h4 {
+          color: #6f5e4d;
+        }
+        a {
+          transition: background-color 0.6s;
+          &:hover {
+            background-color: transparent !important;
+            color: red !important;
+            border: 1px solid red;
+          }
+        }
+      }
+    }
+    .img {
+      margin-bottom: 50px;
+      overflow: hidden;
+      img {
+        transition: transform 0.6s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  /* ====== End Advertising ======*/
+
+  /* ====== Brings ====== */
+  #brings {
+    background-color: #f6f9fa;
+    padding: 70px 0;
+  }
+  /* ====== End Brings ======*/
+
+  /* ====== Menu ======*/
+  #menu {
+    padding: 70px 0;
+    li:hover {
+      h5 {
+        color: $colorMain;
+      }
+    }
+  }
+  /* ====== End Menu  ======*/
+
+  /* ====== Divider ======*/
+  #divider {
+    background-image: url(../images/divider-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    height: 500px;
+  }
+  /* ====== End Dvider ======*/
+
+  /* ====== Offers ====== */
+  #offers {
+    padding: 70px 0;
+    .offers-item {
+      .img {
+        overflow: hidden;
+        i {
+          bottom: 10px;
+          left: 10px;
+        }
+        a {
+          &:hover {
+            color: #fff !important;
+          }
+        }
+      }
+      &:hover {
+        .crt {
+          visibility: visible;
+          transform: translateY(0px);
+        }
+        img {
+          transform: scale(1.1);
+        }
+      }
+      img {
+        transition: transform 0.6s;
+      }
+      .crt {
+        background-color: $colorMain;
+        transform: translateY(20px);
+        transition: transform 0.6s;
+        visibility: hidden;
+        i {
+          color: #000 !important;
+        }
+      }
+      i {
+        color: $colorMain;
+      }
+      a:hover > i {
+        color: red !important;
+        opacity: 100 !important;
+      }
+      h6 {
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+  /* ====== End Offers ======*/
+
+  /* ====== Download ====== */
+  #download {
+    background-color: $colorMain;
+    h3,
+    h2,
+    p {
+      color: $colorSecond;
+    }
+    img {
+      width: 170px;
+    }
+    .banner {
+      margin-top: -40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  /* ====== End Download ======*/
+
+  /* ====== Events ======*/
+  #events {
+    padding: 50px 0;
+    text-align: center;
+    .img {
+      overflow: hidden;
+      img {
+        transition: transform 0.6s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  /* ====== End Events ======*/
+
+  /* ====== Brands ======*/
+  #brands {
+    background-color: #f6f9fa;
+    padding: 50px 0;
+    img {
+      width: 150px;
+    }
+  }
+  /* ====== End Brands ======*/
+
+  /* ====== Taste ======*/
+  #taste {
+    text-align: center;
+    padding: 50px 0;
+    .img-holder {
+      margin-top: 20px;
+      img {
+        width: 200px;
+      }
+      span {
+        color: $colorMain;
+        background-color: $colorSecond;
+        bottom: 15px;
+        left: 15px;
+      }
+      .starts {
+        bottom: 25px;
+        right: 15px;
+      }
+      i {
+        color: $colorMain;
+      }
+      .fa-heart {
+        right: 10px;
+        top: 10px;
+        transition: color 0.6s;
+        &:hover {
+          color: red !important;
+          opacity: 100 !important;
+        }
+      }
+
+      height: 200px;
+    }
+    a {
+      transition: background-color 0.6s;
+      &:hover {
+        background-color: $colorMain !important;
+      }
+    }
+  }
+  /* ====== End Taste ======/ 
+
+  /* ====== Review ====== */
+  #review {
+    background-image: url(../images/reviews.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0;
+    img {
+      width: 100px !important;
+    }
+    i {
+      color: $colorMain;
+    }
+  }
+  /* ====== End Review ======*/
+
+  /* ====== Gallery ======*/
+  #gallery {
+    padding: 70px 0;
+    text-align: center;
+    .gallery-img {
+      .img-holder {
+        overflow: hidden;
+        img {
+          transition: transform 0.6s;
+          &:hover {
+            transform: scale(1.1) !important;
+            filter: brightness(50%);
+          }
+        }
+      }
+      .content {
+        bottom: -20px;
+        left: 25px;
+        transition: all 0.6s ease-in-out;
+        opacity: 0;
+        i {
+          color: $colorMain;
+        }
+      }
+      &:hover .content {
+        opacity: 1;
+        transform: translateY(-50px);
+      }
+    }
+  }
+  /* ====== End Gallery ======*/
+
+  /* ====== Banner ======*/
+  #banner {
+    background-image: url(../images/banner-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+  }
+  /* ====== End Banner ======*/
+
+  /* ====== Footer ======*/
+  #footer {
+    text-align: center;
+    .footer-top {
+      h3 {
+        color: $colorMain !important;
+      }
+    }
+  }
+  /* ====== End Footer ======*/
+}
+/* ====== End Main ======*/
