@@ -1,5 +1,52 @@
 /* ====== Variables ======*/
 /* ====== End Variables ======*/
+/* ====== Nav ====== */
+#nav {
+  background: linear-gradient(to right, #e9130b, #ffffff);
+}
+#nav .logo {
+  height: 70px !important;
+}
+#nav .menu-main .menu-item a {
+  transition: color 0.6s;
+}
+#nav .menu-main .menu-item a:hover {
+  color: #f7be27 !important;
+}
+#nav .menu-main .menu-item a span {
+  top: 10px;
+}
+#nav .menu-main .menu-item .menu-sub {
+  top: 70px;
+  width: 210px;
+  display: none;
+  transform: translateX(-50px);
+}
+#nav .menu-main .menu-item .menu-sub li {
+  transition: transform 0.6s;
+}
+#nav .menu-main .menu-item .menu-sub li:hover {
+  transform: translateX(10px);
+}
+#nav .menu-main .menu-item .menu-sub img {
+  height: 40px;
+}
+#nav .menu-main .menu-item .menu-mega {
+  top: 70px;
+  right: 150px;
+  display: none;
+}
+#nav .menu-main .menu-item .menu-mega img {
+  height: 100px !important;
+}
+#nav .menu-main .menu-item:hover .menu-sub {
+  display: block;
+}
+#nav .menu-main .menu-item:hover .menu-mega {
+  display: block;
+}
+
+/* ====== End Nav ======*/
 /* ====== Footer ======*/
 #footer {
   text-align: center;
@@ -11,10 +58,35 @@
 /* ====== End Footer ======*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #nav .menu-mega {
+    visibility: hidden !important;
+  }
+  #nav .mega-sub {
+    visibility: visible !important;
+  }
+}
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav .menu-item {
+    margin-right: 10px;
+  }
+  #nav .menu-mega {
+    width: 600px;
+  }
+  #nav .mega-sub {
+    visibility: hidden !important;
+  }
+}
 /* Large Devices, Wide Screens */
+/* Exarge Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav .menu-mega {
+    visibility: visible !important;
+  }
+}
 /*==========  Non-Mobile First Method  ==========*/
 /* Exlarge Devices, Wide Screens */
 @media only screen and (max-width: 2500px) {
@@ -38,6 +110,18 @@
   }
   #footer ul {
     display: block !important;
+  }
+  #nav .menu-main {
+    justify-content: center !important;
+  }
+  #nav .menu-main i {
+    display: none;
+  }
+  #nav .menu-main span {
+    display: none;
+  }
+  #nav .logo {
+    display: none;
   }
 }
 /* Extra Small Devices, Phones */
