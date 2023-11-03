@@ -1,5 +1,6 @@
-// ====== Variables ======
+// ====== Imports ======
 @import "../sass/variables";
+@import "../sass/components/footer";
 @import "../sass/responsive";
 
 /* ====== Header ====== */
@@ -392,15 +393,6 @@ main {
   }
   /* ====== End Banner ======*/
 
-  /* ====== Footer ======*/
-  #footer {
-    text-align: center;
-    .footer-top {
-      h3 {
-        color: $colorMain !important;
-      }
-    }
-  }
-  /* ====== End Footer ======*/
+  
 }
 /* ====== End Main ======*/

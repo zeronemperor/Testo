@@ -1,5 +1,14 @@
 /* ====== Variables ======*/
 /* ====== End Variables ======*/
+/* ====== Footer ======*/
+#footer {
+  text-align: center;
+}
+#footer .footer-top h3 {
+  color: #f7be27 !important;
+}
+
+/* ====== End Footer ======*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
@@ -96,8 +105,6 @@ main {
   /* ====== End Gallery ======*/
   /* ====== Banner ======*/
   /* ====== End Banner ======*/
-  /* ====== Footer ======*/
-  /* ====== End Footer ======*/
 }
 main #explore {
   background-image: url(../images/about-2.jpg);
@@ -395,12 +402,6 @@ main #banner {
   background-repeat: no-repeat;
   text-align: center;
   padding: 100px 0;
-}
-main #footer {
-  text-align: center;
-}
-main #footer .footer-top h3 {
-  color: #f7be27 !important;
 }
 
 /* ====== End Main ======*//*# sourceMappingURL=home.css.map */
