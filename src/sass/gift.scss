@@ -1,0 +1,64 @@
+// ====== Imports ======
+@import "../sass/variables";
+@import "../sass/components/nav";
+@import "../sass/components/footer";
+@import "../sass/responsive";
+
+#nav,
+header,
+#voucher,
+#download {
+  display: none;
+}
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/gallery-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+  /* ====== Voucher ======*/
+  #voucher {
+    .container {
+      background-image: url(../images/voucher.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 250px;
+    }
+  }
+  /* ====== End Voucher ======*/
+
+/* ====== Card ======*/
+#card{
+  padding: 70px 0;
+  text-align: center;
+}
+/* ====== End Card ======*/
+
+  /* ====== Download ====== */
+  #download {
+    background-color: $colorMain;
+    h3,
+    h2,
+    p {
+      color: $colorSecond;
+    }
+    img {
+      width: 170px;
+    }
+    .banner {
+      margin-top: -40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  /* ====== End Download ======*/
+}
+/* ====== End Main ======*/

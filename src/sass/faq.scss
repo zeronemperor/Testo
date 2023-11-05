@@ -1,0 +1,45 @@
+// ====== Imports ======
+@import "../sass/variables";
+@import "../sass/components/nav";
+@import "../sass/components/footer";
+@import "../sass/responsive";
+
+
+
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/faqs-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+
+  #faq{
+    padding: 70px 0;
+  }
+
+  /* ====== Subscribe ====== */
+  #subscribe {
+    .container {
+      padding: 70px 0;
+      background-color: rgb(236, 236, 236);
+    }
+    text-align: center;
+    a{
+      transition: background-color 0.6s;
+    &:hover {
+      background-color: #fff !important;
+      color: red !important;
+      border: 1px solid red !important;
+    }
+    }
+  }
+  /* ====== End Subscribe ======*/
+}
+/* ====== End Main ======*/
