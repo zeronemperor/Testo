@@ -48,10 +48,13 @@
 
 /* ====== End Nav ======*/
 /* ====== Footer ======*/
-#footer {
-  text-align: center;
+#footer img {
+  width: 25% !important;
 }
-#footer .footer-top h3 {
+#footer .logo {
+  width: 150px !important;
+}
+#footer h3 {
   color: #f7be27 !important;
 }
 

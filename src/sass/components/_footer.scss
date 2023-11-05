@@ -1,10 +1,16 @@
 /* ====== Footer ======*/
 #footer {
-    text-align: center;
-    .footer-top {
+  
+  img{
+    width: 25% !important;
+  }
+  .logo{
+    width: 150px !important;
+  }
+   
       h3 {
         color: $colorMain !important;
       }
-    }
+    
   }
   /* ====== End Footer ======*/
