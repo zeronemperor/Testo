@@ -138,13 +138,6 @@
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
-#nav,
-header,
-#voucher,
-#download {
-  display: none;
-}
-
 /* ====== Header ====== */
 header {
   background-image: url(../images/gallery-page.jpg);
