@@ -1,9 +1,6 @@
 /* ====== Variables ======*/
 /* ====== End Variables ======*/
 /* ====== Nav ====== */
-#nav {
-  background: linear-gradient(to right, #e9130b, #ffffff);
-}
 #nav .logo {
   height: 70px !important;
 }
@@ -44,6 +41,13 @@
 }
 #nav .menu-main .menu-item:hover .menu-mega {
   display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
 }
 
 /* ====== End Nav ======*/

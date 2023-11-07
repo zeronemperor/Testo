@@ -1,6 +1,5 @@
 /* ====== Nav ====== */
 #nav {
-  background: linear-gradient(to right, #e9130b, #ffffff);
   .logo {
     height: 70px !important;
   }
@@ -48,6 +47,12 @@
         }
       }
     }
+  }
+}
+.active {
+  background-color: #fff;
+  a {
+    color: #000 !important;
   }
 }
 /* ====== End Nav ======*/

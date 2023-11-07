@@ -1,9 +1,6 @@
 /* ====== Variables ======*/
 /* ====== End Variables ======*/
 /* ====== Nav ====== */
-#nav {
-  background: linear-gradient(to right, #e9130b, #ffffff);
-}
 #nav .logo {
   height: 70px !important;
 }
@@ -44,6 +41,13 @@
 }
 #nav .menu-main .menu-item:hover .menu-mega {
   display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
 }
 
 /* ====== End Nav ======*/
@@ -99,6 +103,11 @@
 }
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #learn img {
+    height: 250px !important;
+  }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   #download {
@@ -125,6 +134,10 @@
   }
   #nav .logo {
     display: none;
+  }
+  #learn img {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
