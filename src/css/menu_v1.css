@@ -1,0 +1,265 @@
+/* ====== Variables ======*/
+/* ====== End Variables ======*/
+/* ====== Nav ====== */
+#nav .logo {
+  height: 70px !important;
+}
+#nav .menu-main .menu-item a {
+  transition: color 0.6s;
+}
+#nav .menu-main .menu-item a:hover {
+  color: #f7be27 !important;
+}
+#nav .menu-main .menu-item a span {
+  top: 10px;
+}
+#nav .menu-main .menu-item .menu-sub {
+  top: 70px;
+  width: 210px;
+  display: none;
+  transform: translateX(-50px);
+}
+#nav .menu-main .menu-item .menu-sub li {
+  transition: transform 0.6s;
+}
+#nav .menu-main .menu-item .menu-sub li:hover {
+  transform: translateX(10px);
+}
+#nav .menu-main .menu-item .menu-sub img {
+  height: 40px;
+}
+#nav .menu-main .menu-item .menu-mega {
+  top: 70px;
+  right: 150px;
+  display: none;
+}
+#nav .menu-main .menu-item .menu-mega img {
+  height: 100px !important;
+}
+#nav .menu-main .menu-item:hover .menu-sub {
+  display: block;
+}
+#nav .menu-main .menu-item:hover .menu-mega {
+  display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
+}
+
+/* ====== End Nav ======*/
+/* ====== Footer ======*/
+#footer img {
+  width: 25% !important;
+}
+#footer .logo {
+  width: 150px !important;
+}
+#footer h3 {
+  color: #f7be27 !important;
+}
+
+/* ====== End Footer ======*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #nav .menu-mega {
+    visibility: hidden !important;
+  }
+  #nav .mega-sub {
+    visibility: visible !important;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav .menu-item {
+    margin-right: 10px;
+  }
+  #nav .menu-mega {
+    width: 600px;
+  }
+  #nav .mega-sub {
+    visibility: hidden !important;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Exarge Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav .menu-mega {
+    visibility: visible !important;
+  }
+}
+/*==========  Non-Mobile First Method  ==========*/
+/* Exlarge Devices, Wide Screens */
+@media only screen and (max-width: 2500px) {
+  #footer {
+    padding: 60px 0;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #learn img {
+    height: 250px !important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #download {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #download img {
+    margin-bottom: 100px !important;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer ul {
+    display: block !important;
+  }
+  #nav .menu-main {
+    justify-content: center !important;
+  }
+  #nav .menu-main i {
+    display: none;
+  }
+  #nav .menu-main span {
+    display: none;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #learn img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* ====== Header ====== */
+header {
+  background-image: url(../images/menu-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+
+/* ====== End Header ====== */
+/* ====== Main ======*/
+main {
+  /* ====== Taste ======*/
+  /* ====== End Taste ======/ 
+
+  /* ====== Review ====== */
+  /* ====== End Review ======*/
+  /* ====== Gallery ======*/
+  /* ====== End Gallery ======*/
+  /* ====== Banner ======*/
+  /* ====== End Banner ======*/
+}
+main #taste {
+  text-align: center;
+  padding: 50px 0;
+}
+main #taste li:hover i {
+  transition: all 0.6s;
+}
+main #taste li:hover i:hover {
+  color: red !important;
+  opacity: 100 !important;
+  cursor: pointer;
+}
+main #taste li:hover h5 {
+  opacity: 100 !important;
+}
+main #taste .img-holder {
+  margin-top: 20px;
+  height: 200px;
+}
+main #taste .img-holder img {
+  width: 200px;
+}
+main #taste .img-holder span {
+  color: #f7be27;
+  background-color: #642F21;
+  bottom: 15px;
+  left: 15px;
+}
+main #taste .img-holder .starts {
+  bottom: 25px;
+  right: 15px;
+}
+main #taste .img-holder i {
+  color: #f7be27;
+}
+main #taste .img-holder .fa-heart {
+  right: 10px;
+  top: 10px;
+  transition: color 0.6s;
+}
+main #taste .img-holder .fa-heart:hover {
+  color: red !important;
+  opacity: 100 !important;
+}
+main #taste a {
+  transition: background-color 0.6s;
+}
+main #taste a:hover {
+  background-color: #f7be27 !important;
+}
+main #review {
+  background-image: url(../images/reviews.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 0;
+}
+main #review img {
+  width: 100px !important;
+}
+main #review i {
+  color: #f7be27;
+}
+main #gallery {
+  padding: 70px 0;
+  text-align: center;
+}
+main #gallery .gallery-img .img-holder {
+  overflow: hidden;
+}
+main #gallery .gallery-img .img-holder img {
+  transition: transform 0.6s;
+}
+main #gallery .gallery-img .img-holder img:hover {
+  transform: scale(1.1) !important;
+  filter: brightness(50%);
+}
+main #gallery .gallery-img .content {
+  bottom: -20px;
+  left: 25px;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+}
+main #gallery .gallery-img .content i {
+  color: #f7be27;
+}
+main #gallery .gallery-img:hover .content {
+  opacity: 1;
+  transform: translateY(-50px);
+}
+main #banner {
+  background-image: url(../images/banner-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* ====== End Main ======*//*# sourceMappingURL=menu_v1.css.map */
