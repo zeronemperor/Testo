@@ -1,0 +1,100 @@
+// ====== Imports ======
+@import "../sass/variables";
+@import "../sass/components/nav";
+@import "../sass/components/footer";
+@import "../sass/responsive";
+
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/menu-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+ /* ====== Burgers ======*/
+ #burgers {
+  padding: 60px 0;
+  .burger {
+    margin-bottom: 40px;
+    i {
+      color: $colorMain;
+    }
+    span {
+      background-color: $colorSecond;
+      color: $colorMain;
+    }
+    .crt {
+      background-color: $colorMain;
+      color: #000;
+      transform: translateY(20px);
+      visibility: hidden;
+      transition: transform 0.6s;
+    }
+    .burger-img {
+      overflow: hidden;
+      img {
+        transition: transform 0.6s;
+      }
+    }
+    .code {
+      left: 10px;
+      top: 10px;
+      background-color: transparent;
+    }
+    i {
+      transition: opacity, color 0.6s;
+    }
+    .fa-heart:hover {
+      cursor: pointer;
+      color: red !important;
+      opacity: 100% !important;
+    }
+    a {
+      transform: translateY(-40px);
+      cursor: pointer;
+      i {
+        color: #fff !important;
+      }
+    }
+    &:hover {
+      .crt {
+        visibility: visible;
+        transform: translateY(0px);
+      }
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .page-division{
+    li{
+      transition: background-color .6s;
+      &:hover{
+        background-color: $colorMain;
+        a{
+          opacity: 1 !important;
+        }
+      }
+    }
+  }
+}
+/* ====== End Burgers ======*/
+
+
+  /* ====== Banner ======*/
+  #banner {
+    background-image: url(../images/banner-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+  }
+  /* ====== End Banner ======*/
+}
+/* ====== End Main ======*/
