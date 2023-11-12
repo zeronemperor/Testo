@@ -1,0 +1,74 @@
+// ====== Imports ======
+@import "../sass/variables";
+@import "../sass/components/nav";
+@import "../sass/components/footer";
+@import "../sass/responsive";
+
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/cart-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+ /* ====== Cart ======*/
+ #cart{
+  padding: 100px 0;
+  table{
+    border-collapse: collapse;
+    img{
+      width: 50px;
+      height: 50px;
+    }
+    i{
+      cursor: pointer;
+      transition: opacity .6s;
+      &:hover{
+        opacity: 100 !important;
+      }
+    }
+    input{
+      outline: none !important;
+    }
+  }
+  a{
+    transition: background-color .6s;
+    &:hover{
+      background-color: #fff !important;
+      color: #DC3545 !important;
+      border: 1px solid #DC3545 !important;
+    }
+  }
+  .wrapper{
+    background-color: #F6F9FA;
+  }
+ }
+ /* ====== End Cart ======*/
+
+  /* ====== Download ====== */
+  #download {
+    background-color: $colorMain;
+    h3,
+    h2,
+    p {
+      color: $colorSecond;
+    }
+    img {
+      width: 170px;
+    }
+    .banner {
+      margin-top: -40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  /* ====== End Download ======*/
+}
+/* ====== End Main ======*/

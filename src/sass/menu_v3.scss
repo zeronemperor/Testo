@@ -1,0 +1,52 @@
+// ====== Imports ======
+@import "../sass/variables";
+@import "../sass/components/nav";
+@import "../sass/components/footer";
+@import "../sass/responsive";
+
+
+/* ====== Header ====== */
+header {
+  background-image: url(../images/menu-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+/* ====== End Header ====== */
+
+/* ====== Main ======*/
+main {
+  /* ====== Menu1 ======*/
+  #menu {
+    padding: 70px 0;
+    a {
+      &:hover {
+        h6 {
+          background-color: $colorMain !important;
+        }
+      }
+      .menu-meta {
+        p {
+          margin-right: 5px;
+        }
+        h6 {
+          background-color: rgb(204, 204, 204);
+          transition: background-color 0.6s;
+        }
+      }
+    }
+  }
+  /* ====== End Menu1 ======*/
+
+  /* ====== Banner ======*/
+  #banner {
+    background-image: url(../images/banner-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
+  }
+  /* ====== End Banner ======*/
+}
+/* ====== End Main ======*/
