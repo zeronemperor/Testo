@@ -1,0 +1,181 @@
+/* ====== Variables ======*/
+/* ====== End Variables ======*/
+/* ====== Nav ====== */
+#nav .logo {
+  height: 70px !important;
+}
+#nav .menu-main .menu-item a {
+  transition: color 0.6s;
+}
+#nav .menu-main .menu-item a:hover {
+  color: #f7be27 !important;
+}
+#nav .menu-main .menu-item a span {
+  top: 10px;
+}
+#nav .menu-main .menu-item .menu-sub {
+  top: 70px;
+  width: 210px;
+  display: none;
+  transform: translateX(-50px);
+}
+#nav .menu-main .menu-item .menu-sub li {
+  transition: transform 0.6s;
+}
+#nav .menu-main .menu-item .menu-sub li:hover {
+  transform: translateX(10px);
+}
+#nav .menu-main .menu-item .menu-sub img {
+  height: 40px;
+}
+#nav .menu-main .menu-item .menu-mega {
+  top: 70px;
+  right: 150px;
+  display: none;
+}
+#nav .menu-main .menu-item .menu-mega img {
+  height: 100px !important;
+}
+#nav .menu-main .menu-item:hover .menu-sub {
+  display: block;
+}
+#nav .menu-main .menu-item:hover .menu-mega {
+  display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
+}
+
+/* ====== End Nav ======*/
+/* ====== Footer ======*/
+#footer img {
+  width: 25% !important;
+}
+#footer .logo {
+  width: 150px !important;
+}
+#footer h3 {
+  color: #f7be27 !important;
+}
+
+/* ====== End Footer ======*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #nav .menu-mega {
+    visibility: hidden !important;
+  }
+  #nav .mega-sub {
+    visibility: visible !important;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav .menu-item {
+    margin-right: 10px;
+  }
+  #nav .menu-mega {
+    width: 600px;
+  }
+  #nav .mega-sub {
+    visibility: hidden !important;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Exarge Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav .menu-mega {
+    visibility: visible !important;
+  }
+}
+/*==========  Non-Mobile First Method  ==========*/
+/* Exlarge Devices, Wide Screens */
+@media only screen and (max-width: 2500px) {
+  #footer {
+    padding: 60px 0;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #learn img {
+    height: 250px !important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #download {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #download img {
+    margin-bottom: 100px !important;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer ul {
+    display: block !important;
+  }
+  #nav .menu-main {
+    justify-content: center !important;
+  }
+  #nav .menu-main i {
+    display: none;
+  }
+  #nav .menu-main span {
+    display: none;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #learn img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* ====== Header ====== */
+header {
+  background-image: url(../images/terms-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+
+/* ====== End Header ====== */
+/* ====== Main ======*/
+main {
+  /* ====== Term ====== */
+  /* ====== End Term ======*/
+  /* ====== Subscribe ====== */
+  /* ====== End Subscribe ======*/
+}
+main #term {
+  padding: 70px 0;
+}
+main #subscribe {
+  text-align: center;
+}
+main #subscribe .container {
+  padding: 70px 0;
+  background-color: rgb(236, 236, 236);
+}
+main #subscribe a {
+  transition: background-color 0.6s;
+}
+main #subscribe a:hover {
+  background-color: #fff !important;
+  color: red !important;
+  border: 1px solid red !important;
+}
+
+/* ====== End Main ======*//*# sourceMappingURL=privacy.css.map */

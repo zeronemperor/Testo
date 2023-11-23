@@ -1,0 +1,507 @@
+/* ====== Variables ======*/
+/* ====== End Variables ======*/
+/* ====== Nav ====== */
+#nav .logo {
+  height: 70px !important;
+}
+#nav .menu-main .menu-item a {
+  transition: color 0.6s;
+}
+#nav .menu-main .menu-item a:hover {
+  color: #f7be27 !important;
+}
+#nav .menu-main .menu-item a span {
+  top: 10px;
+}
+#nav .menu-main .menu-item .menu-sub {
+  top: 70px;
+  width: 210px;
+  display: none;
+  transform: translateX(-50px);
+}
+#nav .menu-main .menu-item .menu-sub li {
+  transition: transform 0.6s;
+}
+#nav .menu-main .menu-item .menu-sub li:hover {
+  transform: translateX(10px);
+}
+#nav .menu-main .menu-item .menu-sub img {
+  height: 40px;
+}
+#nav .menu-main .menu-item .menu-mega {
+  top: 70px;
+  right: 150px;
+  display: none;
+}
+#nav .menu-main .menu-item .menu-mega img {
+  height: 100px !important;
+}
+#nav .menu-main .menu-item:hover .menu-sub {
+  display: block;
+}
+#nav .menu-main .menu-item:hover .menu-mega {
+  display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
+}
+
+/* ====== End Nav ======*/
+/* ====== Footer ======*/
+#footer img {
+  width: 25% !important;
+}
+#footer .logo {
+  width: 150px !important;
+}
+#footer h3 {
+  color: #f7be27 !important;
+}
+
+/* ====== End Footer ======*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #nav .menu-mega {
+    visibility: hidden !important;
+  }
+  #nav .mega-sub {
+    visibility: visible !important;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav .menu-item {
+    margin-right: 10px;
+  }
+  #nav .menu-mega {
+    width: 600px;
+  }
+  #nav .mega-sub {
+    visibility: hidden !important;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Exarge Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav .menu-mega {
+    visibility: visible !important;
+  }
+}
+/*==========  Non-Mobile First Method  ==========*/
+/* Exlarge Devices, Wide Screens */
+@media only screen and (max-width: 2500px) {
+  #footer {
+    padding: 60px 0;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #learn img {
+    height: 250px !important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #download {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #download img {
+    margin-bottom: 100px !important;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer ul {
+    display: block !important;
+  }
+  #nav .menu-main {
+    justify-content: center !important;
+  }
+  #nav .menu-main i {
+    display: none;
+  }
+  #nav .menu-main span {
+    display: none;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #learn img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* ====== Header ====== */
+header {
+  background-image: url(../images/hero-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+header a {
+  background-color: #f7be27;
+  transition: background-color, color 0.6s;
+  color: #000;
+}
+header a:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+header .price {
+  right: 0;
+  top: 0;
+}
+header .price img {
+  width: 150px;
+}
+header .price h3 {
+  top: 50px;
+  transform: translateX(50%);
+}
+
+/* ====== End Header ====== */
+/* ====== Main ======*/
+main {
+  /* ====== Explore ======*/
+  /* ====== End Explore*/
+  /* ====== About ======*/
+  /* ====== End About ======*/
+  /* ====== Burgers ======*/
+  /* ====== End Burgers ======*/
+  /* ====== Advertising ====== */
+  /* ====== End Advertising ======*/
+  /* ====== Brings ====== */
+  /* ====== End Brings ======*/
+  /* ====== Menu ======*/
+  /* ====== End Menu  ======*/
+  /* ====== Divider ======*/
+  /* ====== End Dvider ======*/
+  /* ====== Offers ====== */
+  /* ====== End Offers ======*/
+  /* ====== Download ====== */
+  /* ====== End Download ======*/
+  /* ====== Events ======*/
+  /* ====== End Events ======*/
+  /* ====== Brands ======*/
+  /* ====== End Brands ======*/
+  /* ====== Taste ======*/
+  /* ====== End Taste ======/ 
+
+  /* ====== Review ====== */
+  /* ====== End Review ======*/
+  /* ====== Gallery ======*/
+  /* ====== End Gallery ======*/
+  /* ====== Banner ======*/
+  /* ====== End Banner ======*/
+}
+main #explore {
+  background-image: url(../images/about-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  height: 70vh;
+}
+main #explore .wrapper {
+  transform: translateY(80px);
+}
+main #explore .wrapper a {
+  margin-bottom: 60px !important;
+  background-color: red;
+  transition: background-color, color 0.7s;
+}
+main #explore .wrapper a:hover {
+  background-color: transparent;
+  border: 1px solid red;
+  color: red !important;
+}
+main #about {
+  padding: 50px 0;
+  background-color: #f7be27;
+}
+main #about img {
+  width: 100px;
+  color: #000;
+}
+main #burgers {
+  padding: 60px 0;
+}
+main #burgers .burger {
+  margin-bottom: 40px;
+}
+main #burgers .burger i {
+  color: #f7be27;
+}
+main #burgers .burger span {
+  background-color: #642F21;
+  color: #f7be27;
+}
+main #burgers .burger .crt {
+  background-color: #f7be27;
+  color: #000;
+  transform: translateY(20px);
+  visibility: hidden;
+  transition: transform 0.6s;
+}
+main #burgers .burger .burger-img {
+  overflow: hidden;
+}
+main #burgers .burger .burger-img img {
+  transition: transform 0.6s;
+}
+main #burgers .burger .code {
+  left: 10px;
+  top: 10px;
+  background-color: transparent;
+}
+main #burgers .burger i {
+  transition: opacity, color 0.6s;
+}
+main #burgers .burger .fa-heart:hover {
+  cursor: pointer;
+  color: red !important;
+  opacity: 100% !important;
+}
+main #burgers .burger a {
+  transform: translateY(-40px);
+  cursor: pointer;
+}
+main #burgers .burger a i {
+  color: #fff !important;
+}
+main #burgers .burger:hover .crt {
+  visibility: visible;
+  transform: translateY(0px);
+}
+main #burgers .burger:hover img {
+  transform: scale(1.1);
+}
+main #advertising {
+  padding: 60px 0;
+}
+main #advertising .wrapper img {
+  height: 250px;
+  width: 100%;
+}
+main #advertising .wrapper .content {
+  top: 20%;
+  right: 5%;
+}
+main #advertising .wrapper .content h4 {
+  color: #6f5e4d;
+}
+main #advertising .wrapper .content a {
+  transition: background-color 0.6s;
+}
+main #advertising .wrapper .content a:hover {
+  background-color: transparent !important;
+  color: red !important;
+  border: 1px solid red;
+}
+main #advertising .img {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+main #advertising .img img {
+  transition: transform 0.6s;
+}
+main #advertising .img img:hover {
+  transform: scale(1.1);
+}
+main #brings {
+  background-color: #f6f9fa;
+  padding: 70px 0;
+}
+main #menu {
+  padding: 70px 0;
+}
+main #menu li:hover h5 {
+  color: #f7be27;
+}
+main #divider {
+  background-image: url(../images/divider-04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  height: 500px;
+}
+main #offers {
+  padding: 70px 0;
+}
+main #offers .offers-item .img {
+  overflow: hidden;
+}
+main #offers .offers-item .img i {
+  bottom: 10px;
+  left: 10px;
+}
+main #offers .offers-item .img a:hover {
+  color: #fff !important;
+}
+main #offers .offers-item:hover .crt {
+  visibility: visible;
+  transform: translateY(0px);
+}
+main #offers .offers-item:hover img {
+  transform: scale(1.1);
+}
+main #offers .offers-item img {
+  transition: transform 0.6s;
+}
+main #offers .offers-item .crt {
+  background-color: #f7be27;
+  transform: translateY(20px);
+  transition: transform 0.6s;
+  visibility: hidden;
+}
+main #offers .offers-item .crt i {
+  color: #000 !important;
+}
+main #offers .offers-item i {
+  color: #f7be27;
+}
+main #offers .offers-item a:hover > i {
+  color: red !important;
+  opacity: 100 !important;
+}
+main #offers .offers-item h6 {
+  top: 10px;
+  left: 10px;
+}
+main #download {
+  background-color: #f7be27;
+}
+main #download h3,
+main #download h2,
+main #download p {
+  color: #642F21;
+}
+main #download img {
+  width: 170px;
+}
+main #download .banner {
+  margin-top: -40px;
+}
+main #download .banner img {
+  width: 100%;
+}
+main #events {
+  padding: 50px 0;
+  text-align: center;
+}
+main #events .img {
+  overflow: hidden;
+}
+main #events .img img {
+  transition: transform 0.6s;
+}
+main #events .img img:hover {
+  transform: scale(1.1);
+}
+main #brands {
+  background-color: #f6f9fa;
+  padding: 50px 0;
+}
+main #brands img {
+  width: 150px;
+}
+main #taste {
+  text-align: center;
+  padding: 50px 0;
+}
+main #taste .img-holder {
+  margin-top: 20px;
+  height: 200px;
+}
+main #taste .img-holder img {
+  width: 200px;
+}
+main #taste .img-holder span {
+  color: #f7be27;
+  background-color: #642F21;
+  bottom: 15px;
+  left: 15px;
+}
+main #taste .img-holder .starts {
+  bottom: 25px;
+  right: 15px;
+}
+main #taste .img-holder i {
+  color: #f7be27;
+}
+main #taste .img-holder .fa-heart {
+  right: 10px;
+  top: 10px;
+  transition: color 0.6s;
+}
+main #taste .img-holder .fa-heart:hover {
+  color: red !important;
+  opacity: 100 !important;
+}
+main #taste a {
+  transition: background-color 0.6s;
+}
+main #taste a:hover {
+  background-color: #f7be27 !important;
+}
+main #review {
+  background-image: url(../images/reviews.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 0;
+}
+main #review img {
+  width: 100px !important;
+}
+main #review i {
+  color: #f7be27;
+}
+main #gallery {
+  padding: 70px 0;
+  text-align: center;
+}
+main #gallery .gallery-img .img-holder {
+  overflow: hidden;
+}
+main #gallery .gallery-img .img-holder img {
+  transition: transform 0.6s;
+}
+main #gallery .gallery-img .img-holder img:hover {
+  transform: scale(1.1) !important;
+  filter: brightness(50%);
+}
+main #gallery .gallery-img .content {
+  bottom: -20px;
+  left: 25px;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+}
+main #gallery .gallery-img .content i {
+  color: #f7be27;
+}
+main #gallery .gallery-img:hover .content {
+  opacity: 1;
+  transform: translateY(-50px);
+}
+main #banner {
+  background-image: url(../images/banner-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* ====== End Main ======*//*# sourceMappingURL=home.css.map */

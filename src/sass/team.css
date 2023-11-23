@@ -1,0 +1,218 @@
+/* ====== Variables ======*/
+/* ====== End Variables ======*/
+/* ====== Nav ====== */
+#nav .logo {
+  height: 70px !important;
+}
+#nav .menu-main .menu-item a {
+  transition: color 0.6s;
+}
+#nav .menu-main .menu-item a:hover {
+  color: #f7be27 !important;
+}
+#nav .menu-main .menu-item a span {
+  top: 10px;
+}
+#nav .menu-main .menu-item .menu-sub {
+  top: 70px;
+  width: 210px;
+  display: none;
+  transform: translateX(-50px);
+}
+#nav .menu-main .menu-item .menu-sub li {
+  transition: transform 0.6s;
+}
+#nav .menu-main .menu-item .menu-sub li:hover {
+  transform: translateX(10px);
+}
+#nav .menu-main .menu-item .menu-sub img {
+  height: 40px;
+}
+#nav .menu-main .menu-item .menu-mega {
+  top: 70px;
+  right: 150px;
+  display: none;
+}
+#nav .menu-main .menu-item .menu-mega img {
+  height: 100px !important;
+}
+#nav .menu-main .menu-item:hover .menu-sub {
+  display: block;
+}
+#nav .menu-main .menu-item:hover .menu-mega {
+  display: block;
+}
+
+.active {
+  background-color: #fff;
+}
+.active a {
+  color: #000 !important;
+}
+
+/* ====== End Nav ======*/
+/* ====== Footer ======*/
+#footer img {
+  width: 25% !important;
+}
+#footer .logo {
+  width: 150px !important;
+}
+#footer h3 {
+  color: #f7be27 !important;
+}
+
+/* ====== End Footer ======*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #nav .menu-mega {
+    visibility: hidden !important;
+  }
+  #nav .mega-sub {
+    visibility: visible !important;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav .menu-item {
+    margin-right: 10px;
+  }
+  #nav .menu-mega {
+    width: 600px;
+  }
+  #nav .mega-sub {
+    visibility: hidden !important;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Exarge Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav .menu-mega {
+    visibility: visible !important;
+  }
+}
+/*==========  Non-Mobile First Method  ==========*/
+/* Exlarge Devices, Wide Screens */
+@media only screen and (max-width: 2500px) {
+  #footer {
+    padding: 60px 0;
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #learn img {
+    height: 250px !important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #download {
+    text-align: center;
+    padding-top: 50px;
+  }
+  #download img {
+    margin-bottom: 100px !important;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer ul {
+    display: block !important;
+  }
+  #nav .menu-main {
+    justify-content: center !important;
+  }
+  #nav .menu-main i {
+    display: none;
+  }
+  #nav .menu-main span {
+    display: none;
+  }
+  #nav .logo {
+    display: none;
+  }
+  #learn img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* ====== Header ====== */
+header {
+  background-image: url(../images/team-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+
+/* ====== End Header ====== */
+/* ====== Main ======*/
+main {
+  /* ====== Team ====== */
+  /* ====== End Team ======*/
+  /* ====== Download ====== */
+  /* ====== End Download ======*/
+}
+main #team {
+  padding: 90px 0;
+}
+main #team .tm-member .member-img:hover > .member-social {
+  bottom: 40px !important;
+  opacity: 1;
+}
+main #team .tm-member .member-img .member-social {
+  text-align: center !important;
+  bottom: 0;
+  left: 38%;
+  transition: all 0.6s ease-in-out;
+  opacity: 0;
+}
+main #team .tm-member .member-img .member-social i {
+  transition: background-color 0.6s;
+}
+main #team .tm-member .member-img .member-social i.fa-facebook-f:hover {
+  background-color: #3b5998 !important;
+}
+main #team .tm-member .member-img .member-social i.fa-twitter:hover {
+  background-color: #00a9ed !important;
+}
+main #team .tm-member .member-img .member-social i.fa-linkedin-in:hover {
+  background-color: #015886 !important;
+}
+main #team .tm-member h6 {
+  color: #f7be27;
+}
+main #team .page-division li {
+  transition: background-color 0.6s;
+}
+main #team .page-division li:hover {
+  background-color: #f7be27;
+}
+main #team .page-division li:hover a {
+  opacity: 1 !important;
+}
+main #download {
+  background-color: #f7be27;
+}
+main #download h3,
+main #download h2,
+main #download p {
+  color: #642F21;
+}
+main #download img {
+  width: 170px;
+}
+main #download .banner {
+  margin-top: -40px;
+}
+main #download .banner img {
+  width: 100%;
+}
+
+/* ====== End Main ======*//*# sourceMappingURL=team.css.map */
