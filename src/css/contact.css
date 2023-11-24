@@ -144,7 +144,7 @@
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/blog-page.jpg);
+  background-image: url(../images/contacts-page.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0 100px 0;
@@ -154,43 +154,44 @@ header {
 /* ====== End Header ====== */
 /* ====== Main ======*/
 main {
-  /* ====== Post ====== */
-  /* ====== End Post ======*/
-  /* ====== Comment ====== */
-  /* ====== End Comment ======*/
-  /* ====== Subscribe ====== */
-  /* ====== End Subscribe ======*/
+  /* ====== Contact ======*/
+  /* ====== End Contact ======*/
+  /* ====== Form ====== */
+  /* ====== End Form ======*/
+  /* ====== Download ====== */
+  /* ====== End Download ======*/
 }
-main #post {
+main #contact {
+  padding: 50px 0;
+}
+main form {
   padding: 70px 0;
 }
-main #comment img {
-  width: 70px;
-  height: 60px;
-}
-main #comment a {
+main form a {
   border: 1px solid red;
   transition: background-color 0.6s;
 }
-main #comment a:hover {
+main form a:hover {
   border: 1px solid red;
   background-color: #fff !important;
   color: red !important;
 }
-main #subscribe {
-  text-align: center;
+main #download {
+  background-color: #f7be27;
 }
-main #subscribe .container {
-  padding: 70px 0;
-  background-color: rgb(236, 236, 236);
+main #download h3,
+main #download h2,
+main #download p {
+  color: #642F21;
 }
-main #subscribe a {
-  transition: background-color 0.6s;
+main #download img {
+  width: 170px;
 }
-main #subscribe a:hover {
-  background-color: #fff !important;
-  color: red !important;
-  border: 1px solid red !important;
+main #download .banner {
+  margin-top: -40px;
+}
+main #download .banner img {
+  width: 100%;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=single_post.css.map */
+/* ====== End Main ======*//*# sourceMappingURL=contact.css.map */

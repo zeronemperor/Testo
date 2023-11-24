@@ -5,9 +5,10 @@
 @import "../sass/responsive";
 
 
+
 /* ====== Header ====== */
 header {
-  background-image: url(../images/booking-page.jpg);
+  background-image: url(../images/contacts-page.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0 100px 0;
@@ -17,7 +18,13 @@ header {
 
 /* ====== Main ======*/
 main {
-/* ====== Book ====== */
+/* ====== Contact ======*/
+#contact{
+  padding: 50px 0;
+}
+/* ====== End Contact ======*/
+
+/* ====== Form ====== */
 form{
   padding: 70px 0;
   a {
@@ -30,7 +37,7 @@ form{
     }
   }
 }
-/* ====== End Book ======*/
+/* ====== End Form ======*/
 
   /* ====== Download ====== */
   #download {
