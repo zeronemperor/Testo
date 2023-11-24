@@ -144,7 +144,7 @@
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/product-page.jpg);
+  background-image: url(../images/blog-page.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0 100px 0;
@@ -154,107 +154,43 @@ header {
 /* ====== End Header ====== */
 /* ====== Main ======*/
 main {
-  /* ====== Product ======*/
-  /* ====== End Product ======*/
-  /* ====== Burgers ======*/
-  /* ====== End Burgers ======*/
-  /* ====== Banner ======*/
-  /* ====== End Banner ======*/
+  /* ====== Post ====== */
+  /* ====== End Post ======*/
+  /* ====== Comment ====== */
+  /* ====== End Comment ======*/
+  /* ====== Subscribe ====== */
+  /* ====== End Subscribe ======*/
 }
-main #product {
-  margin: 70px 0;
+main #post {
+  padding: 70px 0;
 }
-main #product .tabs-nav li {
-  cursor: pointer;
-  transition: opacity 0.6s;
+main #comment img {
+  width: 70px;
+  height: 60px;
 }
-main #product .tabs-nav li:hover {
-  opacity: 100 !important;
-}
-main #product .tabs-nav li img {
-  width: 100px;
-}
-main #product i {
-  color: #f7be27;
-}
-main #product h3 {
-  color: #f7be27 !important;
-}
-main #product a {
-  background-color: #f7be27;
-}
-main #product a i {
-  color: #000;
-}
-main #burgers {
-  background-color: #f0f0f0;
-  padding: 60px 0;
-}
-main #burgers .burger {
-  margin-bottom: 40px;
-}
-main #burgers .burger i {
-  color: #f7be27;
-}
-main #burgers .burger span {
-  background-color: #642F21;
-  color: #f7be27;
-}
-main #burgers .burger .crt {
-  background-color: #f7be27;
-  color: #000;
-  transform: translateY(20px);
-  visibility: hidden;
-  transition: transform 0.6s;
-}
-main #burgers .burger .burger-img {
-  overflow: hidden;
-}
-main #burgers .burger .burger-img img {
-  transition: transform 0.6s;
-}
-main #burgers .burger .code {
-  left: 10px;
-  top: 10px;
-  background-color: transparent;
-}
-main #burgers .burger i {
-  transition: opacity, color 0.6s;
-}
-main #burgers .burger .fa-heart:hover {
-  cursor: pointer;
-  color: red !important;
-  opacity: 100% !important;
-}
-main #burgers .burger a {
-  transform: translateY(-40px);
-  cursor: pointer;
-}
-main #burgers .burger a i {
-  color: #fff !important;
-}
-main #burgers .burger:hover .crt {
-  visibility: visible;
-  transform: translateY(0px);
-}
-main #burgers .burger:hover img {
-  transform: scale(1.1);
-}
-main #burgers .page-division li {
+main #comment a {
+  border: 1px solid red;
   transition: background-color 0.6s;
 }
-main #burgers .page-division li:hover {
-  background-color: #f7be27;
+main #comment a:hover {
+  border: 1px solid red;
+  background-color: #fff !important;
+  color: red !important;
 }
-main #burgers .page-division li:hover a {
-  opacity: 1 !important;
-}
-main #banner {
-  background-image: url(../images/banner-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+main #subscribe {
   text-align: center;
-  padding: 100px 0;
+}
+main #subscribe .container {
+  padding: 70px 0;
+  background-color: rgb(236, 236, 236);
+}
+main #subscribe a {
+  transition: background-color 0.6s;
+}
+main #subscribe a:hover {
+  background-color: #fff !important;
+  color: red !important;
+  border: 1px solid red !important;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=product.css.map */
+/* ====== End Main ======*//*# sourceMappingURL=single_post.css.map */

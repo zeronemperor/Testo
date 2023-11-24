@@ -144,7 +144,7 @@
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/terms-page.jpg);
+  background-image: url(../images/locations-page.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 0 100px 0;
@@ -154,19 +154,26 @@ header {
 /* ====== End Header ====== */
 /* ====== Main ======*/
 main {
-  /* ====== Term ====== */
-  /* ====== End Term ======*/
+  /* ====== Our ====== */
+  /* ====== End Our ======*/
   /* ====== Subscribe ====== */
   /* ====== End Subscribe ======*/
 }
-main #term {
-  padding: 70px 0;
+main #our {
+  padding: 50px 0;
+  text-align: center;
+}
+main #our img {
+  transition: transform 0.6s;
+}
+main #our img:hover {
+  transform: scale(1.1);
 }
 main #subscribe {
   text-align: center;
 }
 main #subscribe .container {
-  padding: 70px 0;
+  padding: 50px 0 70px 0;
   background-color: rgb(236, 236, 236);
 }
 main #subscribe a {
@@ -178,4 +185,4 @@ main #subscribe a:hover {
   border: 1px solid red !important;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=privacy.css.map */
+/* ====== End Main ======*//*# sourceMappingURL=our.css.map */
