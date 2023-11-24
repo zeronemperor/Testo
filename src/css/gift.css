@@ -137,16 +137,14 @@
   }
   #learn img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/gallery-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/gallery-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -160,6 +158,9 @@ main {
   /* ====== End Card ======*/
   /* ====== Download ====== */
   /* ====== End Download ======*/
+}
+main #voucher  {
+  padding: 50px 0;
 }
 main #voucher .container {
   background-image: url(../images/voucher.jpg);
@@ -177,7 +178,7 @@ main #download {
 main #download h3,
 main #download h2,
 main #download p {
-  color: #642F21;
+  color: #642f21;
 }
 main #download img {
   width: 170px;
@@ -189,4 +190,4 @@ main #download .banner img {
   width: 100%;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=gift.css.map */
+/* ====== End Main ======*/ /*# sourceMappingURL=gift.css.map */

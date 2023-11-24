@@ -4,12 +4,9 @@
 @import "../sass/components/footer";
 @import "../sass/responsive";
 
-
 /* ====== Header ====== */
 header {
-  background-image: url(../images/menu-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/menu-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -17,75 +14,74 @@ header {
 
 /* ====== Main ======*/
 main {
- /* ====== Burgers ======*/
- #burgers {
-  padding: 60px 0;
-  .burger {
-    margin-bottom: 40px;
-    i {
-      color: $colorMain;
-    }
-    span {
-      background-color: $colorSecond;
-      color: $colorMain;
-    }
-    .crt {
-      background-color: $colorMain;
-      color: #000;
-      transform: translateY(20px);
-      visibility: hidden;
-      transition: transform 0.6s;
-    }
-    .burger-img {
-      overflow: hidden;
-      img {
+  /* ====== Burgers ======*/
+  #burgers {
+    padding: 60px 0;
+    .burger {
+      margin-bottom: 40px;
+      i {
+        color: $colorMain;
+      }
+      span {
+        background-color: $colorSecond;
+        color: $colorMain;
+      }
+      .crt {
+        background-color: $colorMain;
+        color: #000;
+        transform: translateY(20px);
+        visibility: hidden;
         transition: transform 0.6s;
       }
-    }
-    .code {
-      left: 10px;
-      top: 10px;
-      background-color: transparent;
-    }
-    i {
-      transition: opacity, color 0.6s;
-    }
-    .fa-heart:hover {
-      cursor: pointer;
-      color: red !important;
-      opacity: 100% !important;
-    }
-    a {
-      transform: translateY(-40px);
-      cursor: pointer;
+      .burger-img {
+        overflow: hidden;
+        img {
+          transition: transform 0.6s;
+        }
+      }
+      .code {
+        left: 10px;
+        top: 10px;
+        background-color: transparent;
+      }
       i {
-        color: #fff !important;
+        transition: opacity, color 0.6s;
+      }
+      .fa-heart:hover {
+        cursor: pointer;
+        color: red !important;
+        opacity: 100% !important;
+      }
+      a {
+        transform: translateY(-40px);
+        cursor: pointer;
+        i {
+          color: #fff !important;
+        }
+      }
+      &:hover {
+        .crt {
+          visibility: visible;
+          transform: translateY(0px);
+        }
+        img {
+          transform: scale(1.1);
+        }
       }
     }
-    &:hover {
-      .crt {
-        visibility: visible;
-        transform: translateY(0px);
-      }
-      img {
-        transform: scale(1.1);
-      }
-    }
-  }
-  .page-division{
-    li{
-      transition: background-color .6s;
-      &:hover{
-        background-color: $colorMain;
-        a{
-          opacity: 1 !important;
+    .page-division {
+      li {
+        transition: background-color 0.6s;
+        &:hover {
+          background-color: $colorMain;
+          a {
+            opacity: 1 !important;
+          }
         }
       }
     }
   }
-}
-/* ====== End Burgers ======*/
-
+  /* ====== End Burgers ======*/
 
   /* ====== Banner ======*/
   #banner {

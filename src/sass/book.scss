@@ -4,12 +4,9 @@
 @import "../sass/components/footer";
 @import "../sass/responsive";
 
-
 /* ====== Header ====== */
 header {
-  background-image: url(../images/booking-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/booking-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -17,20 +14,20 @@ header {
 
 /* ====== Main ======*/
 main {
-/* ====== Book ====== */
-form{
-  padding: 70px 0;
-  a {
-    border: 1px solid red;
-    transition: background-color 0.6s;
-    &:hover {
+  /* ====== Book ====== */
+  form {
+    padding: 70px 0;
+    a {
       border: 1px solid red;
-      background-color: #fff !important;
-      color: red !important;
+      transition: background-color 0.6s;
+      &:hover {
+        border: 1px solid red;
+        background-color: #fff !important;
+        color: red !important;
+      }
     }
   }
-}
-/* ====== End Book ======*/
+  /* ====== End Book ======*/
 
   /* ====== Download ====== */
   #download {

@@ -4,12 +4,9 @@
 @import "../sass/components/footer";
 @import "../sass/responsive";
 
-
 /* ====== Header ====== */
 header {
-  background-image: url(../images/gallery-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/gallery-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -17,39 +14,37 @@ header {
 
 /* ====== Main ======*/
 main {
-
-    /* ====== Gallery ======*/
-    #gallery {
-      padding: 70px 0;
-      text-align: center;
-      .gallery-img {
-        .img-holder {
-          overflow: hidden;
-          img {
-            transition: transform 0.6s;
-            &:hover {
-              transform: scale(1.1) !important;
-              filter: brightness(50%);
-            }
+  /* ====== Gallery ======*/
+  #gallery {
+    padding: 70px 0;
+    text-align: center;
+    .gallery-img {
+      .img-holder {
+        overflow: hidden;
+        img {
+          transition: transform 0.6s;
+          &:hover {
+            transform: scale(1.1) !important;
+            filter: brightness(50%);
           }
-        }
-        .content {
-          bottom: -20px;
-          left: 25px;
-          transition: all 0.6s ease-in-out;
-          opacity: 0;
-          i {
-            color: $colorMain;
-          }
-        }
-        &:hover .content {
-          opacity: 1;
-          transform: translateY(-50px);
         }
       }
+      .content {
+        bottom: -20px;
+        left: 25px;
+        transition: all 0.6s ease-in-out;
+        opacity: 0;
+        i {
+          color: $colorMain;
+        }
+      }
+      &:hover .content {
+        opacity: 1;
+        transform: translateY(-50px);
+      }
     }
-    /* ====== End Gallery ======*/
-  
+  }
+  /* ====== End Gallery ======*/
 
   /* ====== Subscribe ====== */
   #subscribe {
@@ -58,13 +53,13 @@ main {
       background-color: rgb(236, 236, 236);
     }
     text-align: center;
-    a{
+    a {
       transition: background-color 0.6s;
-    &:hover {
-      background-color: #fff !important;
-      color: red !important;
-      border: 1px solid red !important;
-    }
+      &:hover {
+        background-color: #fff !important;
+        color: red !important;
+        border: 1px solid red !important;
+      }
     }
   }
   /* ====== End Subscribe ======*/

@@ -137,16 +137,14 @@
   }
   #learn img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/menu-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/menu-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -180,4 +178,4 @@ main #banner {
   padding: 100px 0;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=menu_v3.css.map */
+/* ====== End Main ======*/ /*# sourceMappingURL=menu_v3.css.map */

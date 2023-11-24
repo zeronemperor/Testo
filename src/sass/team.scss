@@ -6,8 +6,7 @@
 
 /* ====== Header ====== */
 header {
-  background-image: url(../images/team-page.jpg);
-  background-size: cover;
+  background: url(../images/team-page.jpg) no-repeat center/cover;
   background-repeat: no-repeat;
   padding: 200px 0 100px 0;
   text-align: center;
@@ -45,16 +44,16 @@ main {
           }
         }
       }
-      h6{
+      h6 {
         color: $colorMain;
       }
     }
-    .page-division{
-      li{
-        transition: background-color .6s;
-        &:hover{
+    .page-division {
+      li {
+        transition: background-color 0.6s;
+        &:hover {
           background-color: $colorMain;
-          a{
+          a {
             opacity: 1 !important;
           }
         }

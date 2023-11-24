@@ -6,9 +6,7 @@
 
 /* ====== Header ====== */
 header {
-  background-image: url(../images/hero-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/hero-4.jpg) no-repeat center/cover;
   padding: 100px 0;
   a {
     background-color: $colorMain;
@@ -393,7 +391,5 @@ main {
     padding: 100px 0;
   }
   /* ====== End Banner ======*/
-
-  
 }
 /* ====== End Main ======*/

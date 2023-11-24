@@ -4,12 +4,9 @@
 @import "../sass/components/footer";
 @import "../sass/responsive";
 
-
 /* ====== Header ====== */
 header {
-  background-image: url(../images/locations-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/locations-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -21,12 +18,12 @@ main {
   #our {
     padding: 50px 0;
     text-align: center;
-      img{
-        transition: transform .6s;
-        &:hover {
-          transform: scale(1.1);
-        }
+    img {
+      transition: transform 0.6s;
+      &:hover {
+        transform: scale(1.1);
       }
+    }
   }
   /* ====== End Our ======*/
 

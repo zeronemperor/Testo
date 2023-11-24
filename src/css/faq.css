@@ -144,9 +144,7 @@
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/faqs-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/faqs-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }

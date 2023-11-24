@@ -137,16 +137,14 @@
   }
   #learn img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/hero-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/hero-4.jpg) no-repeat center/cover;
   padding: 100px 0;
 }
 header a {
@@ -245,7 +243,7 @@ main #burgers .burger i {
   color: #f7be27;
 }
 main #burgers .burger span {
-  background-color: #642F21;
+  background-color: #642f21;
   color: #f7be27;
 }
 main #burgers .burger .crt {
@@ -386,7 +384,7 @@ main #download {
 main #download h3,
 main #download h2,
 main #download p {
-  color: #642F21;
+  color: #642f21;
 }
 main #download img {
   width: 170px;
@@ -430,7 +428,7 @@ main #taste .img-holder img {
 }
 main #taste .img-holder span {
   color: #f7be27;
-  background-color: #642F21;
+  background-color: #642f21;
   bottom: 15px;
   left: 15px;
 }
@@ -504,4 +502,4 @@ main #banner {
   padding: 100px 0;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=home.css.map */
+/* ====== End Main ======*/ /*# sourceMappingURL=home.css.map */

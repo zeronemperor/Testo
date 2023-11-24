@@ -137,16 +137,14 @@
   }
   #learn img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/product-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/product-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -197,7 +195,7 @@ main #burgers .burger i {
   color: #f7be27;
 }
 main #burgers .burger span {
-  background-color: #642F21;
+  background-color: #642f21;
   color: #f7be27;
 }
 main #burgers .burger .crt {
@@ -257,4 +255,4 @@ main #banner {
   padding: 100px 0;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=product.css.map */
+/* ====== End Main ======*/ /*# sourceMappingURL=product.css.map */

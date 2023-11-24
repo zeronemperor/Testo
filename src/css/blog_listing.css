@@ -137,16 +137,14 @@
   }
   #learn img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /* ====== Header ====== */
 header {
-  background-image: url(../images/blog-page.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/blog-page.jpg) no-repeat center/cover;
   padding: 200px 0 100px 0;
   text-align: center;
 }
@@ -175,20 +173,20 @@ main #mst-articles .img-holder:hover > img {
   transform: scale(1.1);
   transition: transform 0.6s ease-in-out;
 }
-main #mst-subscribe {
+main #subscribe {
   text-align: center;
 }
-main #mst-subscribe .container {
+main #subscribe .container {
   padding: 70px 0;
   background-color: rgb(236, 236, 236);
 }
-main #mst-subscribe a {
+main #subscribe a {
   transition: background-color 0.6s;
 }
-main #mst-subscribe a:hover {
+main #subscribe a:hover {
   background-color: #fff !important;
   color: red !important;
   border: 1px solid red !important;
 }
 
-/* ====== End Main ======*//*# sourceMappingURL=blog_listing.css.map */
+/* ====== End Main ======*/ /*# sourceMappingURL=blog_listing.css.map */
